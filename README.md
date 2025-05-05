@@ -7,6 +7,7 @@ In image pre-processing, we converted the images from 3 channel color to graysca
 # MODEL BUILDING
 
 The model is built using 4 convolutional layers with kernel size 3*3 and ReLU activation function. Dropout layers are used to increase the robustness of the model and is set to 40%. Max pooling layer is used in between the layers to reduce dimensionality of the data. A flattening layer is added to the last of convolutional layer. The neural layer has 4 dense layers and an output layer, with soft max activation. It is optimised with ADAM and categorical cross entropy loss function. The layers also have dropout layers to improve the robustness. The summary of model is shown below.
+
 ![image](https://github.com/user-attachments/assets/2756f24c-a56c-4483-aca7-735d51ffb3fb)
 ![image](https://github.com/user-attachments/assets/6b653291-2363-4f50-9cd7-428231a909ae)
 ![image](https://github.com/user-attachments/assets/371cbe52-2614-4351-b34e-6b896105ec4c)
